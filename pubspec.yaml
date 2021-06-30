@@ -71,17 +71,17 @@ flutter:
       fonts:
         - asset: fonts/didot.ttf
 
-#    - family: DevantHorgen
-#      fonts:
-#        - asset: fonts/DevantHorgen.otf
+    - family: DevantHorgen
+      fonts:
+        - asset: fonts/DevantHorgen.ttf
 
     - family: morenaSemiBold
       fonts:
         - asset: fonts/morenaSemiBold.otf
 
-    - family: morganite
-      fonts:
-        - asset: fonts/morganite.ttf
+#    - family: morganite
+#      fonts:
+#        - asset: fonts/morganite.ttf
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf

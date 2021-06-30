@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
           "icons/factsy.svg",
         ),
         nextScreen: HomePage(),
-        splashTransition: SplashTransition.scaleTransition,
+        splashTransition: SplashTransition.fadeTransition,
         backgroundColor: Colors.blueAccent,
         duration: 3000,
       ),
@@ -150,7 +150,7 @@ class _HomePageState extends State<HomePage> {
                 Text(
                   results[index].question,
                   style: TextStyle(
-                    fontFamily: "morganite",
+                    fontFamily: "DevantHorgen",
                     fontSize: 32.0,
                     color: Colors.white,
                     // fontWeight: FontWeight.normal,
@@ -175,7 +175,7 @@ class _HomePageState extends State<HomePage> {
                         label: Text(
                           "#" + results[index].category,
                           style: TextStyle(
-                            fontFamily: "morenaSemiBold",
+                            fontFamily: "didot",
                             fontSize: 16.0,
                             fontWeight: FontWeight.w600,
                             color: Colors.white,
@@ -194,7 +194,7 @@ class _HomePageState extends State<HomePage> {
                         label: Text(
                           "Lev : " + results[index].difficulty,
                           style: TextStyle(
-                            fontFamily: "morenaSemiBold",
+                            fontFamily: "didot",
                             fontSize: 16.0,
                             fontWeight: FontWeight.w600,
                             color: Colors.white,
